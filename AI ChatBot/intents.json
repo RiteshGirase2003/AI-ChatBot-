@@ -1,0 +1,164 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Hi there",
+          "Greetings",
+          "Hi, how's it going?",
+          "Hello, how can I assist you?",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Hey, how's everything?",
+          "What's up?",
+          "Yo!",
+          "Hi, it's nice to see you",
+          "Hey, what's happening?",
+          "Hi, how are things on your end?",
+          "Is everything fine?"
+          
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! What can I do for you?",
+          "Hey! How can I help you?",
+          "Good day! How can I assist you?",
+          "Greetings! How can I help you?",
+          "Hello, thanks for visiting! How can I assist you?",
+          "Hi there, what can I do for you today?",
+          "Hi there, how can I help you?",
+          "Hi, nice to meet you! How can I assist you today?",
+          "Hey, what's going on? How can I help you?",
+          "Hi, how's your day? How can I assist you today?",
+          "Hello, how's everything? How can I help you?",
+          "Hi, what's new? How can I assist you today?",
+          "Hey, how's life treating you? How can I help you?",
+          "Yo! What can I assist you with today?",
+          "What's up? How can I help you today?",
+          "Hi, it's nice to see you! How can I assist you today?"
+        ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later", "Goodbye", "Farewell", "Take care", "Adios", "Ciao", "Later", "Catch you later", "Until next time"],
+          "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Farewell! Take care",
+          "Goodbye, and stay safe",
+          "Adios, my friend",
+          "Ciao for now!",
+          "Later! Have a great day",
+          "Catch you later, alligator!",
+          "Until next time, goodbye!"
+
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "good","well done","great work","Thank you", "That's helpful", "Thank's a lot!", "Appreciate it", "You're a lifesaver", "I'm grateful", "You're awesome", "Much obliged"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome!", "Glad I could assist!", "No problem!", "It's what I'm here for!", "Don't mention it!"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?",
+          "what do you have?",
+          "what you sell?",
+          "what products do you have?"
+
+        ],
+        "responses": [
+          "We take pride in offering a diverse array of products, from cutting-edge electronics to trendy apparel.",
+          "At our e-commerce emporium, you'll discover a treasure trove of goods, encompassing the latest electronics and stylish clothing.",
+          "Our store is your gateway to a world of possibilities. We feature a wide range of items, from state-of-the-art electronics to fashionable attire.",
+          "Peruse our virtual shelves to find everything you desire, including electronics, fashion, and more.",
+          "We're delighted to showcase a selection that includes laptops, smartphones, chic clothing, and much more.",
+          "Our inventory is your playground, featuring an assortment of electronics, wearable tech, and stylish wearables.",
+          "Indulge in the splendor of our product catalog, which includes top-notch laptops, high-quality cameras, sleek smartphones, and fashionable clothing.",
+          "Discover a world of possibilities on our website, from feature-rich laptops to stylish footwear and more.",
+          "Your one-stop destination for top-quality electronics, fashion-forward attire, and the latest gadgets.",
+          "Uncover a world of choices : laptops, smartphones, cameras, and more. Welcome to the ultimate e-commerce experience!"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+            "Do you take credit cards?",
+            "Do you accept Mastercard?",
+            "Can I pay with Paypal?",
+            "Are you having cash on delivery only?",
+            "Can I pay with a bag of magic beans?",
+            "Do you accept payments in smiles?",
+            "Is Monopoly money a valid payment method?",
+            "Can I trade my pet rock for your products?",
+            "Can I use treasure map coordinates to pay?",
+            "Do you accept payments in unicorn hugs?"
+        ],
+        "responses": [
+            "We gladly accept VISA, Mastercard, and Paypal as valid payment methods.",
+            "You can pay with most major credit cards, including VISA and Mastercard, as well as Paypal.",
+            "We offer secure payment options, including VISA, Mastercard, and Paypal for your convenience.",
+            "We accept a variety of payment methods, such as VISA, Mastercard, and Paypal.",
+            "While we appreciate creativity, we can only accept standard payment methods like VISA, Mastercard, and Paypal.",
+            "We're here to assist you with professional payment options, including VISA, Mastercard, and Paypal.",
+            "Your payment experience is important to us. We accept VISA, Mastercard, and Paypal for a hassle-free transaction.",
+            "We strive to provide a simple and secure payment process. Choose from VISA, Mastercard, and Paypal.",
+            "Your satisfaction is our priority. Pay conveniently with VISA, Mastercard, or Paypal.",
+            "We make payment easy for you. Select from trusted options like VISA, Mastercard, and Paypal."
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+            "How long does delivery take?",
+            "How long does shipping take?",
+            "When do I get my delivery?",
+            "Do you have teleportation delivery?",
+            "Can I receive my order yesterday?",
+            "Do you use rocket-powered delivery drones?",
+            "Is there a magic carpet delivery option?",
+            "Can I get my order with a unicorn express?",
+            "Do you deliver via time machine?"
+        ],
+        "responses": [
+            "Our delivery typically takes 2-4 days, ensuring your order arrives promptly.",
+            "Shipping is efficient, usually taking 2-4 days for your convenience.",
+            "We aim to deliver your order within 2-4 days, prioritizing your satisfaction.",
+            "While we can't teleport items (yet), we strive for quick and efficient delivery within 2-4 days.",
+            "As much as we'd love to, time travel isn't available. Your order will arrive in 2-4 days.",
+            "While we admire rocket-powered drones, we stick to a reliable 2-4 day delivery schedule.",
+            "While magic carpets are tempting, we ensure a timely delivery within 2-4 days.",
+            "While unicorns are majestic, we rely on traditional methods for a 2-4 day delivery.",
+            "Time machines are a bit too complex for us, but we promise delivery within 2-4 days."
+        ]
+      },
+      {
+        "tag": "customer_support",
+        "patterns": [
+            "How can I contact customer support?",
+            "What is the customer support phone number?",
+            "Do you offer live chat support?",
+            "How can I reach your support team?",
+            "I need help with my order."
+        ],
+        "responses": [
+            "You can contact our customer support team by calling our toll-free number at 1234567xxx or you can connect us at abc@gmail.com (just imaginary phone no. and email is provided for sample porpose).",
+            "Our customer support phone number is 1234567xxx.",
+            "Yes, we offer live chat support. You can click the 'Chat Now' button on our website to chat with a support representative.",
+            "You can reach our support team through live chat, email, or by calling our toll-free number.",
+            "We're here to help! If you have any questions or issues with your order, please contact our customer support team for assistance."
+        ]
+      }
+    ]
+  }
